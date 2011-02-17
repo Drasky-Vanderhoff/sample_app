@@ -1,9 +1,11 @@
 source 'http://rubygems.org'
+source 'http://gems.github.com'
 
 gem 'rails', '3.0.4'
 gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
-gem "ZenTest"
-gem "redgreen"
+gem 'ZenTest'
+gem 'carlosbrando-autotest-notification' 
+
 
 group :development do
   gem 'rspec-rails', '2.5.0'
